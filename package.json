@@ -1,9 +1,9 @@
 {
-  "name": "get-slug",
+  "name": "get-url-slug",
   "version": "0.0.1",
   "description": "Get the last part of a URL (slug)",
   "main": "lib/index.js",
-  "repository": "https://github.com/drewmrk/get-slug",
+  "repository": "https://github.com/drewmrk/get-url-slug",
   "author": "Drew Markel",
   "types": "lib/index.d.ts",
   "keywords": [
@@ -13,10 +13,16 @@
     "url-slug-getter",
     "get",
     "url-slug",
-    "url-slug-get"
+    "url-slug-get",
+    "get-url-slug"
   ],
-  "homepage": "https://github.com/drewmrk/get-slug",
+  "homepage": "https://github.com/drewmrk/get-url-slug",
   "license": "MIT",
+  "files": [
+    "lib/**/*",
+    "LICENSE",
+    "README.md"
+  ],
   "private": false,
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.8.1",

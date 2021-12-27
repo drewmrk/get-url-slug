@@ -1,4 +1,4 @@
-# get-slug
+# get-url-slug
 
 Get the last part of a URL (slug)
 
@@ -11,9 +11,9 @@ I have noticed that recently I have been needing to grab the slug of a URL and a
 *Assume the URL in every example/demonstration is `https://example.com/one/two/three`
 
 ```js
-import getSlug from 'get-slug'
+import getURLSlug from 'get-url-slug'
 
-console.log(getSlug()) // `three`
+console.log(getURLSlug()) // `three`
 ```
 
 You can also pass two parameters to the function, `pattern` and `range`.
@@ -22,13 +22,13 @@ You can also pass two parameters to the function, `pattern` and `range`.
 `range` is the index past the location of `pattern` to be used (by default it is `1`)
 
 ```js
-import getSlug from 'get-slug'
+import getURLSlug from 'get-url-slug'
 
-console.log(getSlug('e/')) // `/two/three`
+console.log(getURLSlug('e/')) // `/two/three`
 ```
 
 ```js
-import getSlug from 'get-slug'
+import getURLSlug from 'get-url-slug'
 
-console.log(getSlug('e/t', 3)) // `ow/three`
+console.log(getURLSlug('e/t', 3)) // `ow/three`
 ```
