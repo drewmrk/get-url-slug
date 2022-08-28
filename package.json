@@ -1,6 +1,6 @@
 {
   "name": "get-url-slug",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the last part of a URL (slug)",
   "main": "lib/index.js",
   "repository": "https://github.com/drewmrk/get-url-slug",
